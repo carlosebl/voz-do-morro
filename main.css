@@ -79,12 +79,12 @@ footer {
     .infos {
         display: block;
         padding-top: 8px;
+        text-align: center;
     }
 
     #logo {
         max-width: 200px;
-        margin-right: 0;
-        margin-left: 88px;
+        margin: 0;
     }
 
     .text-infos h2 {
