@@ -40,18 +40,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
-    margin-left: 48px;
-}
-
-.social {
-    display: flex;
-    justify-content: center;
-    margin-left: 56px;
-}
-
-.social a img {
-    width: 64px;
-    margin-left: 36px;
+    margin-left: 16px;
 }
 
 .play-section {
@@ -66,6 +55,17 @@
     width: 64px;
 }
 
+.social {
+    display: flex;
+    justify-content: center;
+    margin-left: 56px;
+}
+
+.social a img {
+    width: 64px;
+    margin-left: 36px;
+}
+
 footer {
     padding: 80px;
     text-align: center;
@@ -78,12 +78,13 @@ footer {
 
     .infos {
         display: block;
-        text-align: center;
+        padding-top: 8px;
     }
 
     #logo {
-        max-width: 100%;
-        margin-left: 16px;
+        max-width: 200px;
+        margin-right: 0;
+        margin-left: 88px;
     }
 
     .text-infos h2 {
@@ -98,11 +99,23 @@ footer {
 
     .links {
         display: block;
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+    .play-section {
+        margin-right: 0;
         margin-top: 24px;
+        margin-bottom: 16px;
+    }
+
+    .play-section h3 {
+        font-size: 16px;
+        margin-bottom: 8px;
     }
 
     .social {
-        margin-left: 8px;
+        margin-left: 0;
     }
 
     .social a img {
@@ -110,12 +123,8 @@ footer {
         margin-left: 16px;
     }
 
-    .play-section {
-        margin-right: 0;
-        margin-top: 24px;
-    }
-
     footer {
         font-size: 12px;
+        padding: 24px;
     }
 }
