@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Inter, sans-serif;
-    /* background-color: #2c3635;
-    color: #ef790e; */
+    background-color: #2c3635;
+    color: #ef790e;
 }
 
 .container {
@@ -51,8 +51,8 @@
     margin-bottom: 16px;
 }
 
-#play {
-    width: 64px;
+audio {
+    margin-bottom: 16px;
 }
 
 .social {
@@ -78,22 +78,22 @@ footer {
 
     .infos {
         display: block;
-        padding-top: 8px;
+        padding-top: 4px;
         text-align: center;
     }
 
     #logo {
         max-width: 200px;
-        margin: 0;
+        margin-left: 92px;
     }
 
     .text-infos h2 {
         font-size: 20px;
-        margin-top: 16px;
+        margin-top: 8px;
     }
     
     .text-infos p {
-        margin-top: 12px;
+        margin-top: 8px;
         font-size: 12px;
     }
 
